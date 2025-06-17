@@ -19,6 +19,10 @@ This project simulates a professional marketing page for a meditation app, ideal
 - Clean design and call-to-action areas
 - Responsive layout for all devices
 
+## 🌐 Live Demo
+
+https://zenify.netlify.app/
+
 ## 📁 Getting Started
 
 1. Clone the repository:
