@@ -1,0 +1,84 @@
+.services-section {
+  margin: 100px auto 170px auto;
+}
+.services-section h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: Poppins, 'Courier New', Courier, monospace;
+  margin-top: 30px;
+  color: #333;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  height: 300px;
+  max-width: 900px;
+  margin: auto;
+  font-family: Poppins;
+}
+.cards .meditation {
+  background-image: url('img-bg/medidation.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cards .soundtrack {
+  background-image: url('img-bg/nature-sounds.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cards .progress {
+  background-image: url('img-bg/mockup-zenify-services.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.cards .card {
+  margin: 40px auto;
+  display: flex;
+  text-align: center;
+  height: 300px;
+  width: 290px;
+  border-radius: 1.5rem;
+  color: white;
+  cursor: pointer;
+  transition: 400ms;
+  position: relative;
+}
+.text-services {
+  background-color: #A8D5BA;
+  z-index: 1;
+  position: absolute;
+  width: 260px;
+  height: 80px;
+  bottom: -2rem;
+  border-radius: 15px;
+  left: 15px;
+  padding: 10px 15px;
+}
+.card .tip {
+  font-size: 1em;
+  font-weight: 700;
+}
+.card .second-text {
+  margin-top: 5px;
+  font-size: .8em;
+}
+/* responsive */
+@media screen and (max-width: 850px) {
+  .cards {
+    flex-direction: column;
+    height: 1000px;
+    margin: auto;
+  }
+  .cards .card {
+    margin: 20px auto;
+  }
+  
+}
+
+
+
+

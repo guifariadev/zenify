@@ -1,0 +1,84 @@
+.hero-section {
+  min-height: 100dvh;
+  background-image: url('img-bg/L1l_Barriga_a_beautiful_forest_with_mountains_on_both_sides_wi_a3649785-a577-4e89-8635-da915322a57d.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+}
+.textar {
+  font-family: Roboto, 'Courier New', Courier, monospace;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 250px auto;
+  justify-content: center;
+}
+.textar h1 {
+  font-size: 7rem;
+}
+.textar h2 {
+  font-size: 2rem;
+}
+.hero-section button {
+  position: relative;
+  display: flex;
+  border-radius: 10px;
+  background: #A8D5BA;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+}
+.hero-section button:after{
+  content: "";
+  width: 0%;
+  height: 100%;
+  background: #88ac96;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+.hero-section button:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+.hero-section button span {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 8px 15px;
+  color: #fff;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+}
+/* responsive */
+@media screen and (max-width:850px) {
+  .textar h1 {
+    font-size: 6rem;
+  }
+  .textar h2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width:700px) {
+  .textar h1 {
+    font-size: 4rem;
+  }
+  .textar h2 {
+    font-size: 1.3rem;
+  }
+  .hero-section button span {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width:470px) {
+  .textar h1 {
+    font-size: 2.8rem;
+  }
+  .textar h2 {
+    font-size: 1rem;
+  }
+}
