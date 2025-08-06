@@ -1,7 +1,7 @@
 # Zenify – Meditation App Landing Page 🌿
 
 **Zenify** is a fictional landing page for a meditation and mindfulness mobile app.  
-The project was built to practice front-end skills with **ReactJS** and **TailwindCSS**, focusing on responsive design and clean UI presentation.
+The project was built to practice front-end skills, focusing on responsive design and clean UI presentation.
 
 ![zenify](https://github.com/user-attachments/assets/fb5ed70f-beda-4bbd-929d-de61ce95f922)
 
